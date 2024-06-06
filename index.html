@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculette de prêt immobilier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="image">
+        <img src="images/microlead.png" />
+    </div>
+    <div class="base">
+        <h2>Calculatrice prêt immobilier</h2>
+        <form>
+            <div class="montant">
+                <label for="montant">Montant emprunté</label>
+                <input id="montant" type="text" name="montant" placeholder="100000" required>
+            </div>
+            <div class="taux">
+                <label for="taux">Taux nominal</label>
+                <input id="taux" type="text" name="taux" placeholder="1.2" required>
+            </div>
+            <div class="duree">
+                <label for="duree">Durée de remboursement</label>
+                <input id="duree" type="text" name="duree" placeholder="15" required>
+            </div>
+        </form>
+        <button>Calculer</button>
+    </div>
+</body>
+</html>

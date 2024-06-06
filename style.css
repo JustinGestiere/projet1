@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nunito Sans;
+    color: #234B68;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 70px;
+}
+
+.base {
+    margin: 10px 200px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px  solid #234B68;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+}
+
+.montant, .taux, .duree {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+input {
+    border: 1px solid#234B68;
+}
+
+button {
+    margin: 70px 0px 15px;
+    padding: 10px 60px;
+    background-color: #234B68;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
